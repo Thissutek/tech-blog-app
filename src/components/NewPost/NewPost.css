@@ -1,0 +1,16 @@
+.new-post-window {
+    text-align: left;
+}
+
+.add-post {
+    font-size: 30px;
+    margin: 20px;
+    border: none;
+    background: grey;
+    transition: color 0.2s, background 0.2s;
+}
+
+.add-post:hover {
+    color: rgb(255, 0, 0);
+    background: lightgrey;
+}
