@@ -1,21 +1,22 @@
 import './App.css';
-import BlogPost from './components/BlogPost/BlogPost';
-import SearchBar from './components/SearchBar/SearchBar';
-import ToolBar from './components/ToolBar/ToolBar'
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
+import HomePage from './pages/homepage/HomePage';
+import BlogPage from './pages/blogpage/BlogPage';
 
-
-function App() {
+ export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h4>Jon's Code Odyssey: Navigating the Programming Universe</h4>
-      </header>
-        <SearchBar />
-        <ToolBar />
-        <BlogPost />
-        
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/blogpage' element={<BlogPage />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />)

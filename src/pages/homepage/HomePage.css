@@ -1,0 +1,7 @@
+.hero-page {
+    display: flex;
+    background-color: rgba(15, 25, 46, 1);
+    color: #317681;
+    align-items: center;
+    justify-content: center;
+}
