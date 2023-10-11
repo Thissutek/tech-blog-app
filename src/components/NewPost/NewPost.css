@@ -1,16 +1,27 @@
 .new-post-window {
     text-align: left;
+    margin: 20px;
+    background-color: rgba(15, 25, 46, 1);
 }
 
 .add-post {
     font-size: 30px;
     margin: 20px;
     border: none;
-    background: grey;
+    background: none;
     transition: color 0.2s, background 0.2s;
+    border: solid #1DB954 ;
+    padding: 4px 10px;
+    color: 	#1DB954;
+    align-items: center;
 }
 
 .add-post:hover {
-    color: rgb(255, 0, 0);
-    background: lightgrey;
+    color: white;
+    background: #1DB954;
+}
+
+
+.add-post:hover {
+    
 }

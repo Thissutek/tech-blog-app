@@ -1,0 +1,15 @@
+.new-post-form {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    border: solid #172a45;
+    padding: 40px;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-post-inputs {
+    display: flex;
+    flex-direction: column;
+}
