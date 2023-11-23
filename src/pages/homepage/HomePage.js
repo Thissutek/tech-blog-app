@@ -13,7 +13,7 @@ export default function HomePage() {
                 <h2>Welcome</h2>
             </div>
         </div>
-        <div className='hero-page'>
+        <div className='bio-page'>
             <h1>Software Developer</h1>
             <h3> My Journey into programming</h3>
             <p></p>

@@ -7,9 +7,33 @@
     align-items: left;
     justify-content: center;
     flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(15, 25, 46, 0.2);
 }
 
 .new-post-inputs {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.CTA {
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    color: #1DB954;
+    background: none;
+    border-radius: 10px;
+    border: solid #1DB954;
+    transition: color 0.2s, background 0.2s;
+}
+
+.CTA:hover {
+    background: #1DB954;
+    color: white;
 }
